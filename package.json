@@ -1,0 +1,17 @@
+{
+  "name": "minecraft-practice-discord-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minecraft community Discord bot with setup, tickets, moderation and anti-raid",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.4.7"
+  }
+}
